@@ -1,0 +1,24 @@
+#principal {
+	font-size: 50px;
+	background-color: #ADFF2F;
+}
+#caixote {
+	background-color: blue;
+}
+.foto {
+	width: 180px;
+}
+.titulo {
+	color: yellow;
+	font-size: 30px;
+}
+.primeiro {
+	color: #87CEFA;
+	font-size: 30px;
+	font-style: oblique;
+}
+#final {
+	font-size: 20px;
+	color: #B22222;
+	font-style: italic;
+}
