@@ -1,24 +1,56 @@
-#principal {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.principal {
+	background-image: url(./fundo-banner-ies~4.jpg);
+}
+
+.box-título {
+	height: 100px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.título-principal {
 	font-size: 50px;
-	background-color: #ADFF2F;
+	color: #00BFFF;
+	font-family: Dokdo;
 }
-#caixote {
-	background-color: blue;
+
+.box-image {
+	height: 390px;
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.foto {
-	width: 180px;
+
+.foto-principal {
+	width: 14vw;
+	height: 28vh;
+	border-radius: 138px;
 }
-.titulo {
-	color: yellow;
+
+.box-texto {
+	display: flex;
+	justify-content: center;
+}
+
+.texto-página {
+	width: 1000px;
+	height: 400px;
 	font-size: 30px;
+	color: #FFFFFF;
+	font-family: Acme;
 }
-.primeiro {
-	color: #87CEFA;
-	font-size: 30px;
-	font-style: oblique;
-}
-#final {
-	font-size: 20px;
-	color: #B22222;
-	font-style: italic;
+
+.final {
+	display: flex;
+	justify-content: flex-end;
+	color: #ADFF2F;
+	font-family: Kanit;
 }
