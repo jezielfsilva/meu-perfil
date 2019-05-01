@@ -38,6 +38,7 @@
 .box-texto {
 	display: flex;
 	justify-content: center;
+	align-items: flex-end;
 }
 
 .texto-página {
@@ -46,6 +47,34 @@
 	font-size: 30px;
 	color: #FFFFFF;
 	font-family: Acme;
+}
+
+.botão-um {
+	width: 2.4vw;
+	height: 5vh;
+	border-radius: 8px;
+	font-size: 38px;
+	font-family: Archivo Black;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	background: transparent;
+	position: relative;
+	top: 0px;
+	right: 220px;
+}
+
+.botão-dois {
+	width: 2.4vw;
+	height: 5vh;
+	border-radius: 8px;
+	font-size: 26px;
+	font-family: Archivo Black;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	background: transparent;
+	position: relative;
+	top: 0px;
+	right: 200px;
 }
 
 .final {
