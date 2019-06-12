@@ -5,11 +5,16 @@
 }
 
 .principal {
-	background-image: url(./fundo-banner-ies~4.jpg);
+	background-image: url(../img/fundo-banner-ies~4.jpg);
+	background-repeat: no-repeat;
+    background-size: 675%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box-título {
-	height: 100px;
+	height: 20vh;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
