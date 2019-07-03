@@ -5,81 +5,74 @@
 }
 
 .principal {
+	width: 100%;
 	background-image: url(../img/fundo-banner-ies~4.jpg);
 	background-repeat: no-repeat;
-    background-size: 675%;
+    background-size: 500%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .box-título {
-	height: 20vh;
+	width: 100%;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 }
 
 .título-principal {
-	font-size: 50px;
+	font-size: 6vh;
 	color: #00BFFF;
 	font-family: Dokdo;
 }
 
 .box-image {
-	height: 390px;
-	width: 1000px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .foto-principal {
-	width: 14vw;
-	height: 28vh;
-	border-radius: 138px;
+	width: 44vw;
+	border-radius: 20em;
 }
 
 .box-texto {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	flex-direction: column;
 }
 
 .texto-página {
-	width: 1000px;
-	height: 400px;
-	font-size: 30px;
+	font-size: 4vh;
 	color: #FFFFFF;
 	font-family: Acme;
 }
 
 .botão-um {
-	width: 2.4vw;
-	height: 5vh;
-	border-radius: 8px;
-	font-size: 38px;
+	width: 12.4vw;
+	border-radius: 0.3em;
+	font-size: 2em;
 	font-family: Archivo Black;
 	color: #FFFFFF;
 	border-color: #FFFFFF;
 	background: transparent;
 	position: relative;
-	top: 0px;
-	right: 220px;
 }
 
 .botão-dois {
-	width: 2.4vw;
-	height: 5vh;
-	border-radius: 8px;
-	font-size: 26px;
+	width: 12.4vw;
+	border-radius: 0.3em;
+	font-size: 2em;
 	font-family: Archivo Black;
 	color: #FFFFFF;
 	border-color: #FFFFFF;
 	background: transparent;
 	position: relative;
-	top: 0px;
-	right: 200px;
 }
 
 .final {
